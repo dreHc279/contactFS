@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleULTI.css">
+    <link rel="stylesheet" href="styleULTI2.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+        rel="stylesheet">
+
+    </link>
+    <title>Site Web page 2</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://www.ecam-epmi.fr/" class="logo">
+            <img class="imgepmi" src="C:\Users\gauti\Desktop\epmi.png">
+        </a>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href=engines>ENGINES</a></li>
+            <li><a href=bruh>GP</a></li>
+            <li><a href=contact>CONTACT</a></li>
+            <li><a href=about>ABOUT</a></li>
+        </ul>
+
+    </header>
+
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classlist.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+    
+</body>
